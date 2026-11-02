@@ -23,3 +23,8 @@ GitHub Pages: Settings → Pages → Deploy from a branch → `main` → `/ (roo
 - Không có va chạm vật lý hoặc tìm đường tránh đồ vật; di chuyển tự do trên mặt sân.
 - Cần backend/WebSocket và quy tắc phòng, ghế, chống spam trước khi quảng bá multiplayer.
 - Có hỗ trợ reduced-motion cho hiệu ứng pháo giấy và điều khiển bàn bằng nút HTML; cảnh Canvas chưa cung cấp trải nghiệm đọc màn hình đầy đủ.
+
+## Cập nhật trải nghiệm
+Màn chọn 15 nhân vật xuất hiện trước khi vào quán. Lời thoại của người chơi và NPC hiện trên đầu từng người trong khoảng vài giây. Menu 8 món có giá mô phỏng; mỗi bàn giữ tối đa 6 phần, hiển thị món lên mặt bàn, có tổng tiền và nút dọn món. Món chỉ tồn tại trong phiên hiện tại.
+
+Kiểm tra: npm test (4 bài kiểm tra logic, gồm luồng vào quán, lời thoại và món riêng từng bàn).
